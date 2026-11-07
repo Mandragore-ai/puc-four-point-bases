@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it."
+title: "Socles à quatre contacts — Mandragore.ai"
+authors:
+  - name: "Mandragore.ai / 500 Nuances de Geek"
+url: "https://github.com/Mandragore-ai/puc-four-point-bases"
+license: "CC-BY-NC-4.0"

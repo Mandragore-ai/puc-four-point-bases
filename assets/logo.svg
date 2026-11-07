@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" role="img" aria-label="Socles à quatre contacts">
+<rect width="800" height="220" rx="26" fill="#15252f"/>
+<rect x="26" y="26" width="204" height="168" rx="24" fill="#cc5967"/>
+<circle cx="96" cy="70" r="13" fill="white"/><circle cx="160" cy="70" r="13" fill="white"/><circle cx="96" cy="132" r="13" fill="white"/><circle cx="160" cy="132" r="13" fill="white"/>
+<text x="260" y="102" fill="white" font-family="Arial,sans-serif" font-weight="700" font-size="44">Socles à quatre contacts</text>
+<text x="261" y="152" fill="#a6c6ce" font-family="Arial,sans-serif" font-size="28">Mandragore.ai · P401–P415 · 30 mm</text>
+</svg>

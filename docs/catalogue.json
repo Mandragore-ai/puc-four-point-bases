@@ -1,0 +1,1889 @@
+{
+  "schema": 1,
+  "design": "MP30-v1",
+  "units": "mm",
+  "physical_status": "Not printed or physically validated",
+  "project_filaments": [
+    "Bambu TPU for AMS @BBL X1C",
+    "Generic PLA",
+    "Generic PLA",
+    "Protoplasta graphite (conducteur)"
+  ],
+  "profile_source": "C:\\Users\\pdape\\Documents\\Organized play\\socles-v9-work\\reference-filaments-utilisateur.3mf",
+  "profile_note": "Saved user-approved snapshot; current Bambu session not read or changed",
+  "unused_slots": [
+    1,
+    3
+  ],
+  "starter_codes": [
+    "P302",
+    "P312",
+    "P315",
+    "P402",
+    "P410",
+    "P415",
+    "C510",
+    "C512",
+    "C610",
+    "C612"
+  ],
+  "starter_selection": {
+    "3": [
+      "P312",
+      "P315",
+      "P302"
+    ],
+    "4": [
+      "P415",
+      "P410",
+      "P402"
+    ]
+  },
+  "models": [
+    {
+      "id": "P301",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -0.825651260070353,
+          6.203949959016541
+        ],
+        [
+          -10.724165369480913,
+          3.5165638128755066
+        ],
+        [
+          9.765250548422564,
+          -0.1968305361817768
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1440.9434171732094,
+      "conductor_volume_mm3": 882.3074950171817,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 4.917169631717448e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 1,
+      "starter": false,
+      "project_sha256": "7cf2a84ae13ae5c53decd23d42880d38377802ff60c822d2c01fe2ff6e75f6ec"
+    },
+    {
+      "id": "P302",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          10.907746204472838,
+          0.23249874002184717
+        ],
+        [
+          -3.4873518459833166,
+          10.854287534472256
+        ],
+        [
+          -8.145494840548052,
+          -7.301449381535
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1448.1927840137262,
+      "conductor_volume_mm3": 874.706990310241,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188699884087935e-08,
+      "bottom_contact_error_mm2": 6.184351572081208e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 2,
+      "starter": true,
+      "project_sha256": "680119c36d6442273acc308a12a996b8a9afea7378ac701b679537aa2b15e79d"
+    },
+    {
+      "id": "P303",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          4.2735449911883565,
+          3.197489875142221
+        ],
+        [
+          4.461103727101173,
+          -6.933331887272487
+        ],
+        [
+          -7.307343493700689,
+          -0.9865542743019826
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1432.4560706659056,
+      "conductor_volume_mm3": 890.4437036529704,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 4.098311691645328e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 3,
+      "starter": false,
+      "project_sha256": "06808355d92ec90ca4c1998b582648a84f920cb8c463777fdf73672a90d9ef3d"
+    },
+    {
+      "id": "P304",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          10.524095221371926,
+          -4.05186020812691
+        ],
+        [
+          -11.224337758858114,
+          -0.3749750373177337
+        ],
+        [
+          9.72213533708266,
+          6.1349073567899515
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1449.3445618853973,
+      "conductor_volume_mm3": 873.7418158888601,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 6.390762523900372e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 4,
+      "starter": false,
+      "project_sha256": "b0a0b1e07e3bff31442716ef153120e4dbf738b0d627aa278f5e4e06598bcf21"
+    },
+    {
+      "id": "P305",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -9.890859758446423,
+          0.3625605068794492
+        ],
+        [
+          9.574023856460842,
+          -4.158986892913978
+        ],
+        [
+          4.2617758680468,
+          6.388180564488573
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1441.4925346993016,
+      "conductor_volume_mm3": 881.4072396246656,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 4.756142732685082e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 5,
+      "starter": false,
+      "project_sha256": "224e86b6288a40e18f305f6a1fba0d7969d5d04be6cf055f260fb245c04cc929"
+    },
+    {
+      "id": "P306",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -2.496252158542902,
+          9.001735842544711
+        ],
+        [
+          -9.632989808079774,
+          -5.737240235003846
+        ],
+        [
+          1.6035649506844765,
+          -9.166048275320053
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1443.6214008725785,
+      "conductor_volume_mm3": 879.0475805486622,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 5.195609989879317e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 6,
+      "starter": false,
+      "project_sha256": "457545ebf3888417567458dbbc8dcea33bb1c0060f07c554b9ad049c06b9ac2f"
+    },
+    {
+      "id": "P307",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -0.610523904734557,
+          8.59423600987401
+        ],
+        [
+          -9.584551904145304,
+          3.0606653405766955
+        ],
+        [
+          -6.688873802213365,
+          -6.694704716472973
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1442.107161505938,
+      "conductor_volume_mm3": 881.2462991603937,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188737779700507e-08,
+      "bottom_contact_error_mm2": 5.25401459505903e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 7,
+      "starter": false,
+      "project_sha256": "967aa0902a5ddef5c82e966b37e9ec075344caa3d50f438e8f417cab04462142"
+    },
+    {
+      "id": "P308",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          0.33368109257358447,
+          10.472753373277017
+        ],
+        [
+          -6.228578763332145,
+          -2.8249111828750455
+        ],
+        [
+          10.022639567404926,
+          0.34326974130956805
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1440.1744119870334,
+      "conductor_volume_mm3": 882.2637759617278,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 4.8671964504527935e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 8,
+      "starter": false,
+      "project_sha256": "919c3cfb6180a5d025bb3ae36578c0132895043d1d0e4f3b5974bda92e7e8b96"
+    },
+    {
+      "id": "P309",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -7.9501705050473745,
+          -8.088238102026988
+        ],
+        [
+          8.729654126878236,
+          -0.8778001239341687
+        ],
+        [
+          6.6397413044109,
+          9.008877265370078
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1445.4743546462244,
+      "conductor_volume_mm3": 877.1946264915454,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188586197250213e-08,
+      "bottom_contact_error_mm2": 6.263350811955068e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 9,
+      "starter": false,
+      "project_sha256": "5a1bad6331426f523a536bb7c94dde82ab1d42f8998800ea0205700f42f95aff"
+    },
+    {
+      "id": "P310",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -4.412418569237229,
+          -10.583006205034765
+        ],
+        [
+          -4.365737307513679,
+          10.194737293167321
+        ],
+        [
+          9.242544913031546,
+          -5.906752606038128
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1448.8961683024434,
+      "conductor_volume_mm3": 874.3547436859382,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 6.009700548996902e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 10,
+      "starter": false,
+      "project_sha256": "fa663449eda673ac0cfc94d5d7b6126d62aee2897c632348dc44e71be8d06822"
+    },
+    {
+      "id": "P311",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          0.656308914323894,
+          10.678147991488464
+        ],
+        [
+          -11.22195461319029,
+          -1.1666371455986613
+        ],
+        [
+          11.312350896311413,
+          -0.9464588824066825
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1449.3067140627634,
+      "conductor_volume_mm3": 874.6009220683933,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 5.975207893713181e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 11,
+      "starter": false,
+      "project_sha256": "048531c2b087dae5aab04c7cdbd20d6f10c2cc3dcdb0ea3dd49da1d62f6e06df"
+    },
+    {
+      "id": "P312",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          9.385531437284211,
+          -6.3598147967624055
+        ],
+        [
+          4.690985654094982,
+          2.5586342996636366
+        ],
+        [
+          -9.39879026237744,
+          3.918488980738666
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1440.6754115295778,
+      "conductor_volume_mm3": 882.8810867990313,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 5.015952167800992e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 12,
+      "starter": true,
+      "project_sha256": "c0e72d3e8e6152012b2ecc1a17ccaad5902fab3c2025a28d1d2c26b505274a84"
+    },
+    {
+      "id": "P313",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          9.807490077128264,
+          -1.3558753513289372
+        ],
+        [
+          4.473033083969135,
+          10.091106285901073
+        ],
+        [
+          -1.6994073361285043,
+          -10.590768326479852
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1446.8211810341463,
+      "conductor_volume_mm3": 876.7353172254958,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188586197250213e-08,
+      "bottom_contact_error_mm2": 5.596037123571605e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 13,
+      "starter": false,
+      "project_sha256": "e79710b8ad09b9d395df4735ca816f486a4d63b6beb7b36bf1e535b19f7bf673"
+    },
+    {
+      "id": "P314",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          0.8152908761606005,
+          9.239075186177754
+        ],
+        [
+          -1.9800251779672422,
+          -6.910040039386978
+        ],
+        [
+          -8.91568972576335,
+          6.841134466001112
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1441.9336755395495,
+      "conductor_volume_mm3": 881.809426220059,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188586197250213e-08,
+      "bottom_contact_error_mm2": 5.371893576353944e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 14,
+      "starter": false,
+      "project_sha256": "14a357ae8964eadbc54feb01a8c3980c06c75ad52d90455f5e292749c69060e1"
+    },
+    {
+      "id": "P315",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -11.410372794281347,
+          -1.2698927410813692
+        ],
+        [
+          10.355871348839775,
+          4.965981682656862
+        ],
+        [
+          -2.7987244425379614,
+          -6.735625557166925
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1445.0222526384302,
+      "conductor_volume_mm3": 878.534245626303,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 5.497019161602242e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P3-D30-pad5-sep10-orientation",
+      "source_code": 15,
+      "starter": true,
+      "project_sha256": "f635e332367f581d16b7d75f819d54551189815bb9a6d9d5f80c7128626b8143"
+    },
+    {
+      "id": "P401",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -10.092767459397187,
+          4.051115225001157
+        ],
+        [
+          -2.2729917039847956,
+          10.48436337151699
+        ],
+        [
+          -9.031860150289505,
+          -6.1276240192531555
+        ],
+        [
+          7.644098418090987,
+          7.151321760082114
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1415.0174208824108,
+      "conductor_volume_mm3": 908.4200951301718,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188624092862785e-08,
+      "bottom_contact_error_mm2": 8.171732593579023e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 1,
+      "starter": false,
+      "project_sha256": "cddc2c5afd3f4c4d068ca6be25876a91f3acaf94b434b5b574cc700107f2d81b"
+    },
+    {
+      "id": "P402",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          0.19480874036888957,
+          -0.45978465551489783
+        ],
+        [
+          -6.574486372647542,
+          -8.017984075711508
+        ],
+        [
+          9.494963058037632,
+          -5.065151997562124
+        ],
+        [
+          -6.000056616267437,
+          9.273652083669406
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1401.4691377074107,
+      "conductor_volume_mm3": 921.6172404366947,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 6.52444055069643e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 2,
+      "starter": true,
+      "project_sha256": "5d62c9fc6336757c4afc73a46aadb0016c5356f83c6ddbd6498164941b143946"
+    },
+    {
+      "id": "P403",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          8.149584311537295,
+          -7.9667813670813254
+        ],
+        [
+          -8.331688225632067,
+          -7.460815432725215
+        ],
+        [
+          -6.120307371252163,
+          9.301048253747432
+        ],
+        [
+          6.604672613372131,
+          8.687087036257493
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1416.7680902696648,
+      "conductor_volume_mm3": 906.318287575025,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 8.928264205054e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 3,
+      "starter": false,
+      "project_sha256": "e34929cd19a2dc02a180e2cdde63c3bce0b935a3ccd52658e163bf57ba9c55f0"
+    },
+    {
+      "id": "P404",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          6.260831927805597,
+          -9.103792357130578
+        ],
+        [
+          -3.5610681292942634,
+          -6.879453801340068
+        ],
+        [
+          3.2963416006573896,
+          2.160341430240457
+        ],
+        [
+          -9.279099202715821,
+          6.213413852825099
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1403.2283466773845,
+      "conductor_volume_mm3": 920.0446346313755,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188699884087935e-08,
+      "bottom_contact_error_mm2": 6.454789293513003e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 4,
+      "starter": false,
+      "project_sha256": "c205a7816e531d873e3209195d499f8308e841d182360867ab642ba5b795bd20"
+    },
+    {
+      "id": "P405",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          9.866622940393787,
+          -4.98425917750325
+        ],
+        [
+          1.0820925547906628,
+          10.760778155657794
+        ],
+        [
+          -10.13697048160352,
+          -5.0186713475873965
+        ],
+        [
+          0.16887097375483429,
+          -7.916132890764302
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1412.2509407834307,
+      "conductor_volume_mm3": 910.8354373826627,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188699884087935e-08,
+      "bottom_contact_error_mm2": 7.614780397260193e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 5,
+      "starter": false,
+      "project_sha256": "5b6ddd662c8ec79386b3e9cdfaef8ef5384c23f2c3f0c3b9d24ba778603c79bc"
+    },
+    {
+      "id": "P406",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -0.11739774733486032,
+          2.7914847253743633
+        ],
+        [
+          -9.82337868675295,
+          -0.30025052599242996
+        ],
+        [
+          10.352331725296729,
+          4.175824243456278
+        ],
+        [
+          -2.517792057480801,
+          -8.761884363504821
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1401.5276334703565,
+      "conductor_volume_mm3": 921.3279511904165,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188737779700507e-08,
+      "bottom_contact_error_mm2": 5.607054599482957e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 6,
+      "starter": false,
+      "project_sha256": "a3367c339ea123899b7bb4902d2e5d82ccb3a91af33875412896cbc50c1dee5b"
+    },
+    {
+      "id": "P407",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          5.034469000175579,
+          -5.163775927448696
+        ],
+        [
+          -5.403800747647127,
+          0.06967552749971817
+        ],
+        [
+          -1.4648286786962776,
+          10.568663533773085
+        ],
+        [
+          11.101232865519098,
+          2.9646849541393907
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1404.6119643586856,
+      "conductor_volume_mm3": 918.9280998627486,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 6.050461062586947e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 7,
+      "starter": false,
+      "project_sha256": "ecb33adcfa95474bcf8c63efa8e81314ebd4fe1bc2e1acf9d3702ac7cbb8551e"
+    },
+    {
+      "id": "P408",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          2.997338095192396,
+          11.075880714135799
+        ],
+        [
+          7.629509646740731,
+          1.6627851966395095
+        ],
+        [
+          -10.55031524747026,
+          -2.897078143893198
+        ],
+        [
+          -3.342093901994431,
+          -10.419854392676951
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1411.8763655924413,
+      "conductor_volume_mm3": 910.7484258821338,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188699884087935e-08,
+      "bottom_contact_error_mm2": 7.669962474702838e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 8,
+      "starter": false,
+      "project_sha256": "6a7f702f17b2b93dd39a46f505d03381ab04cc19e93c74a1625b95821c5152cf"
+    },
+    {
+      "id": "P409",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -11.054918018361743,
+          -2.863266473640799
+        ],
+        [
+          7.138435499690014,
+          8.905517023338755
+        ],
+        [
+          11.250915677326088,
+          -2.3139011350881553
+        ],
+        [
+          -1.6812418994370397,
+          3.268929262470691
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1408.0481777539471,
+      "conductor_volume_mm3": 914.8074069975177,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 6.965968945592407e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 9,
+      "starter": false,
+      "project_sha256": "d58682398035732eb10fbe1e7b70c6a723f6bb9cbd06350dd7dfdbbd9d8d27d7"
+    },
+    {
+      "id": "P410",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -1.25528391258963,
+          -8.221305880347975
+        ],
+        [
+          -10.758844704821456,
+          -3.5058565068398644
+        ],
+        [
+          11.268471469956692,
+          -1.1522130256922927
+        ],
+        [
+          -5.0018183768512525,
+          9.338183313616105
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1413.1837512022655,
+      "conductor_volume_mm3": 910.2537642631436,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188737779700507e-08,
+      "bottom_contact_error_mm2": 7.45427758291686e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 10,
+      "starter": true,
+      "project_sha256": "001f8cf4efe383b9507447a0f9bb41acc8accb00e85c70280bc6134c5fa613f4"
+    },
+    {
+      "id": "P411",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          4.303757944392804,
+          10.320695540263124
+        ],
+        [
+          4.290598986291358,
+          -3.8617160116025455
+        ],
+        [
+          -4.953703366863265,
+          -10.196391552896324
+        ],
+        [
+          -5.7033722088953605,
+          8.990986920652656
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1410.4934968543323,
+      "conductor_volume_mm3": 913.6007428026384,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 6.780206726850769e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 11,
+      "starter": false,
+      "project_sha256": "a16cf028aabab1b805d4fcddad9b209985285b963a2fe453126ad219c46a4b32"
+    },
+    {
+      "id": "P412",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -7.16138080448519,
+          -6.81432764871263
+        ],
+        [
+          -5.973553750419773,
+          9.810164039958826
+        ],
+        [
+          10.78859432676379,
+          -3.820153438009564
+        ],
+        [
+          2.3732310677509534,
+          -10.448634086553172
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1416.0211285681114,
+      "conductor_volume_mm3": 907.7219732224358,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188699884087935e-08,
+      "bottom_contact_error_mm2": 8.432817105705856e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 12,
+      "starter": false,
+      "project_sha256": "2c2af94aa2d162f7465bc89d9c71442d3e4c2ddba65348ba0dc16bac03b00be9"
+    },
+    {
+      "id": "P413",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          10.46122385601581,
+          -2.4948248102270068
+        ],
+        [
+          -4.973964419980883,
+          -8.850595344784205
+        ],
+        [
+          0.7249298859877591,
+          5.98720597015071
+        ],
+        [
+          -10.47210422338901,
+          4.5932224822276835
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1409.419247803072,
+      "conductor_volume_mm3": 914.3238539823841,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188699884087935e-08,
+      "bottom_contact_error_mm2": 6.992701954712566e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 13,
+      "starter": false,
+      "project_sha256": "6ad2011314122ba42c33c0de83b002b82d728260ace9646f7c27aded1074950d"
+    },
+    {
+      "id": "P414",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          6.402033292314071,
+          8.695145189062028
+        ],
+        [
+          -3.061326138459468,
+          -9.82433245187684
+        ],
+        [
+          3.703416523149274,
+          -0.9417996193648028
+        ],
+        [
+          -7.775011681856182,
+          0.6496577165582224
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1402.3586696200618,
+      "conductor_volume_mm3": 921.571035673696,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 6.040926420274994e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 14,
+      "starter": false,
+      "project_sha256": "b1efc9041d3e3f386bc781f97de2929da167ac0e9c7b016803d37bf0ccd10284"
+    },
+    {
+      "id": "P415",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          9.505247295344187,
+          6.016854742886229
+        ],
+        [
+          -10.585782466618316,
+          3.917387323359502
+        ],
+        [
+          -5.81127350569466,
+          -9.77785554199435
+        ],
+        [
+          0.26157032216410137,
+          11.07417957624325
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1417.8870469707024,
+      "conductor_volume_mm3": 905.856054991159,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 3.789561257387201e-14,
+      "bottom_contact_error_mm2": 8.031782111335451e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "source_library": "P4-D30-pad5-sep10-orientation",
+      "source_code": 15,
+      "starter": true,
+      "project_sha256": "e61643b7fdc3fd7a5bdbfcdca0c6868580c696219ca78203dad6433760939462"
+    },
+    {
+      "id": "C510",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -5.0,
+          0
+        ],
+        [
+          5.0,
+          0
+        ]
+      ],
+      "contacts": 2,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1465.184525237245,
+      "conductor_volume_mm3": 858.291783424007,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.7188737779700507e-08,
+      "bottom_contact_error_mm2": 1.835175197364833e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "role": "Two-pad separation control",
+      "center_spacing_mm": 10,
+      "starter": true,
+      "project_sha256": "e5212adea51f82972da349674c1ab0cbb1e00b80398ad1f768277f4a54189bf6"
+    },
+    {
+      "id": "C512",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          -6.0,
+          0
+        ],
+        [
+          6.0,
+          0
+        ]
+      ],
+      "contacts": 2,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1468.0501107929686,
+      "conductor_volume_mm3": 855.7317841934218,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 2.6036384845055217e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "role": "Two-pad separation control",
+      "center_spacing_mm": 12,
+      "starter": true,
+      "project_sha256": "6a684b3ebc00e497b4c963b2e6b07542a3f0fd42a270419ae380480fa7a5641d"
+    },
+    {
+      "id": "C610",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 6,
+      "coordinates_mm": [
+        [
+          -5.0,
+          0
+        ],
+        [
+          5.0,
+          0
+        ]
+      ],
+      "contacts": 2,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1438.611499055781,
+      "conductor_volume_mm3": 884.6340164752438,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 2.064033670066386e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "role": "Two-pad separation control",
+      "center_spacing_mm": 10,
+      "starter": true,
+      "project_sha256": "90c670dc4fd43655f9d61ae8e8a1feada78966913d8cb4e9ae523f79d8e45f6b"
+    },
+    {
+      "id": "C612",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 6,
+      "coordinates_mm": [
+        [
+          -6.0,
+          0
+        ],
+        [
+          6.0,
+          0
+        ]
+      ],
+      "contacts": 2,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": false,
+      "ring_bottom_mm": null,
+      "ring_diameters_mm": null,
+      "pla_volume_mm3": 1441.4770842772314,
+      "conductor_volume_mm3": 882.0740175789316,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.718866198847536e-08,
+      "bottom_contact_error_mm2": 3.132012712550869e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "role": "Two-pad separation control",
+      "center_spacing_mm": 12,
+      "starter": true,
+      "project_sha256": "981f23e0127740cbe607fb8eabd6e08c95a94f55f9edbea102006785df18eea1"
+    }
+  ],
+  "puc_experimental_variants": [
+    {
+      "id": "P312-PUC",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          9.385531437284211,
+          -6.3598147967624055
+        ],
+        [
+          4.690985654094982,
+          2.5586342996636366
+        ],
+        [
+          -9.39879026237744,
+          3.918488980738666
+        ]
+      ],
+      "contacts": 3,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": true,
+      "ring_bottom_mm": 0.8,
+      "ring_diameters_mm": [
+        28,
+        18
+      ],
+      "pla_volume_mm3": 1188.3685275328824,
+      "conductor_volume_mm3": 1135.187970795727,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.919963056532045e-08,
+      "bottom_contact_error_mm2": 5.015952167800992e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "matched_control": "P312"
+    },
+    {
+      "id": "P415-PUC",
+      "outer_diameter_mm": 30,
+      "figurine_base_nominal_mm": 25,
+      "socket_diameter_mm": 25.45,
+      "socket_depth_mm": 3.2,
+      "floor_mm": 2.4,
+      "height_mm": 5.6,
+      "pad_diameter_mm": 5,
+      "coordinates_mm": [
+        [
+          9.505247295344187,
+          6.016854742886229
+        ],
+        [
+          -10.585782466618316,
+          3.917387323359502
+        ],
+        [
+          -5.81127350569466,
+          -9.77785554199435
+        ],
+        [
+          0.26157032216410137,
+          11.07417957624325
+        ]
+      ],
+      "contacts": 4,
+      "route_width_mm": 1.6,
+      "route_bottom_mm": 0.8,
+      "route_thickness_mm": 0.8,
+      "grip_coverage": "entire perimeter except one orientation notch at upper edge",
+      "grip_material": "conductive PLA, slot 4",
+      "grip_bottom_mm": 0.8,
+      "hybrid_buried_ring": true,
+      "ring_bottom_mm": 0.8,
+      "ring_diameters_mm": [
+        28,
+        18
+      ],
+      "pla_volume_mm3": 1192.0994714398437,
+      "conductor_volume_mm3": 1131.6436305220177,
+      "watertight": true,
+      "components_per_material": 1,
+      "material_overlap_mm3": 2.6710627783662253e-09,
+      "bottom_contact_error_mm2": 8.031782111335451e-06,
+      "socket_empty": true,
+      "physical_fit_verified": false,
+      "physical_detection_verified": false,
+      "matched_control": "P415"
+    }
+  ],
+  "preserved_filament_keys": [
+    "additional_cooling_fan_speed",
+    "filament_adaptive_volumetric_speed",
+    "filament_adhesiveness_category",
+    "filament_bridge_speed",
+    "filament_change_length",
+    "filament_change_length_nc",
+    "filament_colour",
+    "filament_colour_type",
+    "filament_cooling_before_tower",
+    "filament_cost",
+    "filament_density",
+    "filament_deretraction_speed",
+    "filament_dev_ams_drying_ams_limitations",
+    "filament_dev_ams_drying_heat_distortion_temperature",
+    "filament_dev_ams_drying_temperature",
+    "filament_dev_ams_drying_time",
+    "filament_dev_chamber_drying_bed_temperature",
+    "filament_dev_chamber_drying_time",
+    "filament_dev_drying_cooling_temperature",
+    "filament_dev_drying_softening_temperature",
+    "filament_diameter",
+    "filament_enable_overhang_speed",
+    "filament_end_gcode",
+    "filament_extruder_compatibility",
+    "filament_extruder_variant",
+    "filament_flow_ratio",
+    "filament_flush_temp",
+    "filament_flush_temp_fast",
+    "filament_flush_volumetric_speed",
+    "filament_ids",
+    "filament_is_mixed",
+    "filament_is_support",
+    "filament_long_retractions_when_cut",
+    "filament_map",
+    "filament_map_mode",
+    "filament_max_volumetric_speed",
+    "filament_metal_stickiness",
+    "filament_minimal_purge_on_wipe_tower",
+    "filament_mixed_components",
+    "filament_mixed_gradient",
+    "filament_mixed_gradient_curve",
+    "filament_mixed_gradient_per_part",
+    "filament_mixed_gradient_range",
+    "filament_mixed_sublayer_ratios",
+    "filament_multi_colour",
+    "filament_notes",
+    "filament_nozzle_map",
+    "filament_overhang_1_4_speed",
+    "filament_overhang_2_4_speed",
+    "filament_overhang_3_4_speed",
+    "filament_overhang_4_4_speed",
+    "filament_overhang_totally_speed",
+    "filament_pre_cooling_temperature",
+    "filament_pre_cooling_temperature_nc",
+    "filament_preheat_temperature_delta",
+    "filament_prime_volume",
+    "filament_prime_volume_nc",
+    "filament_printable",
+    "filament_ramming_travel_time",
+    "filament_ramming_travel_time_nc",
+    "filament_ramming_volumetric_speed",
+    "filament_ramming_volumetric_speed_nc",
+    "filament_retract_before_wipe",
+    "filament_retract_length_nc",
+    "filament_retract_restart_extra",
+    "filament_retract_when_changing_layer",
+    "filament_retraction_distances_when_cut",
+    "filament_retraction_length",
+    "filament_retraction_minimum_travel",
+    "filament_retraction_speed",
+    "filament_scarf_gap",
+    "filament_scarf_height",
+    "filament_scarf_length",
+    "filament_scarf_seam_type",
+    "filament_self_index",
+    "filament_settings_id",
+    "filament_shrink",
+    "filament_soluble",
+    "filament_start_gcode",
+    "filament_tower_interface_pre_extrusion_dist",
+    "filament_tower_interface_pre_extrusion_length",
+    "filament_tower_interface_print_temp",
+    "filament_tower_interface_purge_volume",
+    "filament_tower_ironing_area",
+    "filament_type",
+    "filament_velocity_adaptation_factor",
+    "filament_vendor",
+    "filament_volume_map",
+    "filament_wipe",
+    "filament_wipe_distance",
+    "filament_z_hop",
+    "filament_z_hop_types",
+    "nozzle_temperature",
+    "nozzle_temperature_initial_layer",
+    "nozzle_temperature_range_high",
+    "nozzle_temperature_range_low",
+    "slow_down_for_layer_cooling",
+    "slow_down_layer_time",
+    "slow_down_min_speed",
+    "textured_plate_temp",
+    "textured_plate_temp_initial_layer"
+  ]
+}
