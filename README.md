@@ -13,6 +13,15 @@ publication ou exploitation commerciale commune.
 **Licence :** [CC BY-NC 4.0](LICENSE.md) pour nos modèles, images, documents et
 données. Attribution requise ; usage commercial sur accord séparé.
 
+## Concept et intéret
+
+Socles pour détecter des figurines ou pions sur une surface capacitive. Permet d'obtenir 
+la localisation ET de différencier les socles, donc d'obtenir l'identité. L'usage du PUC
+ajoute la possibilité d'une détection même lorsque la figurine n'est pas touchée
+
+Ici les socles sont imprimés en PLA+ PLA conducteur, mais de l'encre conductrice
+ou des circuits de cuivre sont possibles
+
 ## Contenu
 
 Quinze géométries de socles d'environ 30 mm, chacune avec quatre contacts
