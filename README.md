@@ -20,7 +20,11 @@ la localisation ET de différencier les socles, donc d'obtenir l'identité. L'us
 ajoute la possibilité d'une détection même lorsque la figurine n'est pas touchée
 
 Ici les socles sont imprimés en PLA+ PLA conducteur, mais de l'encre conductrice
-ou des circuits de cuivre sont possibles
+ou des circuits de cuivre sont possibles.
+
+L'entrainement et l'usage de la topologie d'un plateau permet d'améliorer les résultats.
+Une matrice capacitif au pas plus fin (3mm, 2mm) rend aussi la détection plus facile
+mais en affaiblissant le signal.
 
 ## Contenu
 
